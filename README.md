@@ -40,4 +40,4 @@ Learning resources are based on:
 
 ## Connect
 
-Following along or have feedback? Find me on linkedin.com/in/muhammad-abdulroqeeb.
+Following along or have feedback? Find me on [LinkedIn](https://linkedin.com/in/muhammad-abdulroqeeb).
