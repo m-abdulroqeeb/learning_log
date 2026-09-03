@@ -26,7 +26,9 @@ learning-log/
 
 | Date | Tool | Topic |
 |------|------|-------|
+| 2026-09-01 | SQL | SELECT, DDL, DML, and Filtering (WHERE) |
 | 2026-09-02 | SQL | JOIN |
+| 2026-09-03 | SQL | Set Operations, String Functions, and Numeric Functions |
 
 ## Stack
 
