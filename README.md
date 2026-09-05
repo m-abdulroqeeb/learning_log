@@ -29,7 +29,7 @@ learning-log/
 | 2026-09-01 | SQL | SELECT, DDL, DML, and Filtering (WHERE) |
 | 2026-09-02 | SQL | JOIN |
 | 2026-09-03 | SQL | Set Operations, String Functions, and Numeric Functions |
-
+| 2026-09-04 | SQL | Date & Time |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
