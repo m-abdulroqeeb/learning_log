@@ -30,6 +30,7 @@ learning-log/
 | 2026-09-02 | SQL | JOIN |
 | 2026-09-03 | SQL | Set Operations, String Functions, and Numeric Functions |
 | 2026-09-04 | SQL | Date & Time |
+| 2026-09-05 | SQL | Null Functions |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
