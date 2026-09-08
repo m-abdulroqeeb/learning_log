@@ -31,6 +31,8 @@ learning-log/
 | 2026-09-03 | SQL | Set Operations, String Functions, and Numeric Functions |
 | 2026-09-04 | SQL | Date & Time |
 | 2026-09-05 | SQL | Null Functions |
+| 2026-09-06 | SQL | Case Statement |
+| 2026-09-07 | SQL | Aggregate Functions, Window Basics, and Window Aggregate Functions |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
