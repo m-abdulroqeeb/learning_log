@@ -33,6 +33,7 @@ learning-log/
 | 2026-09-05 | SQL | Null Functions |
 | 2026-09-06 | SQL | Case Statement |
 | 2026-09-07 | SQL | Aggregate Functions, Window Basics, and Window Aggregate Functions |
+| 2026-09-08 | SQL | Window Ranking and Window Value Functions |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
