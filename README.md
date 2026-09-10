@@ -34,6 +34,8 @@ learning-log/
 | 2026-09-06 | SQL | Case Statement |
 | 2026-09-07 | SQL | Aggregate Functions, Window Basics, and Window Aggregate Functions |
 | 2026-09-08 | SQL | Window Ranking and Window Value Functions |
+| 2026-09-09 | SQL | Subquery and Common Table Expression(CTE) |
+| 2026-09-10 | SQL | Views |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
