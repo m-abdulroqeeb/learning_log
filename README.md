@@ -36,6 +36,7 @@ learning-log/
 | 2026-09-08 | SQL | Window Ranking and Window Value Functions |
 | 2026-09-09 | SQL | Subquery and Common Table Expression(CTE) |
 | 2026-09-10 | SQL | Views |
+| 2026-09-11 | SQL | CTAS, Stored Procedure, and Triggers |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
