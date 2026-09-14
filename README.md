@@ -37,6 +37,7 @@ learning-log/
 | 2026-09-09 | SQL | Subquery and Common Table Expression(CTE) |
 | 2026-09-10 | SQL | Views |
 | 2026-09-11 | SQL | CTAS, Stored Procedure, and Triggers |
+| 2026-09-14 | SQL | Indexes (Partially Covered) |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
