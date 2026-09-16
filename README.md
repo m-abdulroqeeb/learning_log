@@ -38,6 +38,7 @@ learning-log/
 | 2026-09-10 | SQL | Views |
 | 2026-09-11 | SQL | CTAS, Stored Procedure, and Triggers |
 | 2026-09-14 | SQL | Indexes (Partially Covered) |
+| 2026-09-15 | SQL | SQL Partitioning Notes (understanding only, not executed) and Performance Tips |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
