@@ -39,6 +39,8 @@ learning-log/
 | 2026-09-11 | SQL | CTAS, Stored Procedure, and Triggers |
 | 2026-09-14 | SQL | Indexes (Partially Covered) |
 | 2026-09-15 | SQL | SQL Partitioning Notes (understanding only, not executed) and Performance Tips |
+| 2026-09-16 | SQL | Data Warehouse Theory — ETL, Medallion Architecture, Naming Conventions (notes) |
+| 2026-09-17 | SQL | Data Warehouse Project — Database/Schema Setup, Bronze DDL, Load Bronze Stored Procedure |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
