@@ -41,6 +41,7 @@ learning-log/
 | 2026-09-15 | SQL | SQL Partitioning Notes (understanding only, not executed) and Performance Tips |
 | 2026-09-16 | SQL | Data Warehouse Theory — ETL, Medallion Architecture, Naming Conventions (notes) |
 | 2026-09-17 | SQL | Data Warehouse Project — Database/Schema Setup, Bronze DDL, Load Bronze Stored Procedure |
+| 2026-09-18 – 2026-09-19 | SQL | Data Warehouse Project — Silver Layer DDL, load_silver Procedure, Gold Layer Views, Quality Checks, and Documentation |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
