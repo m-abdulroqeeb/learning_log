@@ -2,13 +2,19 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammad-abdulroqeeb)
 
-A SQL Server data warehouse built using the Medallion Architecture (Bronze, Silver, Gold), following @datawithbaraa's Data Warehouse course, as part of my data engineering learning journey.
+A SQL Server data warehouse built using the Medallion Architecture (Bronze, Silver, Gold), as part of my data engineering learning journey.
 
 ## About
 
 This project demonstrates a full ETL pipeline, from raw source data (CRM and ERP CSV files) through cleaning and standardization, to business-ready star schema views for reporting and analysis.
 
-This is a guided, tutorial-based project. I wrote and debugged every script myself, and documented my own understanding throughout, but the architecture and approach follow the course structure rather than an original design. My own independently-designed project, built on a different dataset, is a separate piece of work planned for later in my learning journey.
+This is a guided, tutorial-based project, following @datawithbaraa's Data Warehouse course. I wrote and debugged every script myself, and documented my own understanding throughout, but the architecture and approach follow the course structure rather than an original design. 
+
+My own independently-designed project, built on a different dataset, is a separate piece of work planned for later in my learning journey.
+
+## Objective
+
+Build a data warehouse that consolidates sales data from two separate source systems (CRM and ERP) into a single, clean, analysis-ready model, resolving data quality issues along the way and producing a structure suitable for reporting and business insight.
 
 ## Architecture
 
@@ -53,7 +59,7 @@ SQL Server, T-SQL (DDL, DML, Stored Procedures, Views, BULK INSERT)
 
 ## Data Source
 
-Sample CRM and ERP CSV data, provided as part of the course material by @datawithbaraa. Used unmodified, for learning purposes only.
+Sample CRM and ERP CSV data, used unmodified, provided as part of the course material.
 
 ## Credits
 
