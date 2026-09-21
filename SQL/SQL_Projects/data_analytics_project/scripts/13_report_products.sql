@@ -20,6 +20,10 @@ Highlights:
        - average monthly revenue
 ===============================================================================
 */
+IF ObJECT_ID('gold.report_product','V') IS NOT NULL
+    DROP VIEW gold.report_product
+GO
+CREATE VIEW gold.report_product AS 
 WITH base_query AS
 /*---------------------------------------------------------------------------
 1) Base Query: Retrieves core columns from fact_sales and dim_products
