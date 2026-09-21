@@ -194,7 +194,7 @@ BEGIN
 		CASE WHEN TRIM(cntry) IN ('DE','Germany') THEN 'Germany'
 			 WHEN TRIM(cntry) IN ('USA','United States','US') THEN 'United States'
 			 WHEN TRIM(cntry) = 'Australia' THEN 'Australia'
-			 WHEN TRIM(cntry) = 'United Kingdom' THEN 'United Kingdon'
+			 WHEN TRIM(cntry) = 'United Kingdom' THEN 'United Kingdom'
 			 WHEN TRIM(cntry) = 'France' THEN 'France'
 			 WHEN TRIM(cntry) = 'Canada' THEN 'Canada'
 			 ELSE 'n/a'

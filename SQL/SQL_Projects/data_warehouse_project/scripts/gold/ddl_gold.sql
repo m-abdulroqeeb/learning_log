@@ -82,7 +82,7 @@ SELECT
 	sd.sls_ship_dt AS shipping_date,
 	sd.sls_due_dt AS due_date,
 	sd.sls_sales AS sales_amount,
-	sd.sls_quantity AS qauntity,
+	sd.sls_quantity AS quantity,
 	sd.sls_price AS price
 FROM silver.crm_sales_details sd
 LEFT JOIN gold.dim_products pr
