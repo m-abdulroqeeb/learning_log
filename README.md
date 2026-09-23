@@ -42,6 +42,8 @@ learning-log/
 | 2026-09-16 | SQL | Data Warehouse Theory — ETL, Medallion Architecture, Naming Conventions (notes) |
 | 2026-09-17 | SQL | Data Warehouse Project — Database/Schema Setup, Bronze DDL, Load Bronze Stored Procedure |
 | 2026-09-18 – 2026-09-19 | SQL | Data Warehouse Project — Silver Layer DDL, load_silver Procedure, Gold Layer Views, Quality Checks, and Documentation |
+| 2026-09-20 – 2026-09-21 | SQL | Data Analytics Project — Exploration, Analysis, Segmentation, Reporting (gold.report_customer, gold.report_products) |
+| 2026-09-22 | Python | Introduction to python |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
