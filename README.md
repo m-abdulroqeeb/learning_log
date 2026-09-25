@@ -11,9 +11,10 @@ I'm documenting this consistently to track progress, build a portfolio, and comm
 ```
 learning-log/
   README.md
+  Python/
+	2026-09-22/
   SQL/
     2026-09-02/
-  Python/
   Spark/
   Databricks/
   Airflow/
@@ -43,7 +44,11 @@ learning-log/
 | 2026-09-17 | SQL | Data Warehouse Project — Database/Schema Setup, Bronze DDL, Load Bronze Stored Procedure |
 | 2026-09-18 – 2026-09-19 | SQL | Data Warehouse Project — Silver Layer DDL, load_silver Procedure, Gold Layer Views, Quality Checks, and Documentation |
 | 2026-09-20 – 2026-09-21 | SQL | Data Analytics Project — Exploration, Analysis, Segmentation, Reporting (gold.report_customer, gold.report_products) |
-| 2026-09-22 | Python | Introduction to python |
+| 2026-09-22 | Python | Introduction to Python |
+| 2026-09-23 | Python | Working with Strings |
+| 2026-09-24 | Python | Working with Numbers |
+| 2026-09-25 | Python | Logic and Operators |
+
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
@@ -51,7 +56,8 @@ SQL · Python · Spark / PySpark · Databricks · Airflow
 ## Credits
 
 Learning resources are based on:
-- Baara's tutorial/channel:https://youtu.be/SSKVgrwhzus?si=W7hqewOuSKbnjpBc
+- @datawithbaraa's SQL tutorial/channel: https://youtu.be/SSKVgrwhzus?si=W7hqewOuSKbnjpBc
+- @datawithbaraa's Python tutorial: https://youtu.be/Rq5gJVxz55Q?si=AyDFrnRnYodtd_M7
 - This will be updated as my learning progresses.
 
 ## Connect
