@@ -19,8 +19,8 @@ for i in items:
     print('Round:', i)
 print('\n')
 
-# For loops: to use this type of loop, we msut always specify the sequence.
-# The sequence can be turple, list, string, range
+# For loops: to use this type of loop, we must always specify the sequence.
+# The sequence can be a tuple, list, string, or range
 
 # sequence: list
 items = [1, 2, 3, 4, 5]
@@ -40,13 +40,7 @@ for item in range(1, 6):
     print('Round:', item)
 print('\n')
 
-# specifying the start and stop for the range
-for item in range(1, 6):
-    print('Round:', item)
-print('\n')
-
-# specifying the step
-
+# specifying the start, stop, and step for the range
 for item in range(1, 11, 2):
     print('Round:', item)
 print('\n')
@@ -62,28 +56,28 @@ print('\n')
 
 # Another example: cleaning
 files = [' Report.csv', 'DATA.csv ', 'final.TXT']
-# Remove inconsistent cases & unnnecessary spaces
+# Remove inconsistent cases & unnecessary spaces
 for file in files:
-    file = file.strip().lower().replace('.txt','.csv')
+    file = file.strip().lower().replace('.txt', '.csv')
     print('processing', file)
 print('\n')
 
 # Challenge
-#01_Print the 7- times table from 1 to 10 using a for loop
+# 01_Print the 7-times table from 1 to 10 using a for loop
 
 print('Multiplication table 7')
 for i in range(1, 11):
-    print(f'{7} * {i} =', 7 * i )
+    print(f'{7} * {i} =', 7 * i)
 print('\n')
 
 # 02_ print a left-aligned pyramid of stars with 6 rows using a for loop
-for i in range(1,7):
+for i in range(1, 7):
     print('*' * i)
 print('\n')
 
-#Advanced for loops:
-# break: immediately exits the loop entirely, skipping any remaining items
-names = ['john','maria','','kumar']
+# Advanced for loops:
+# break
+names = ['john', 'maria', '', 'kumar']
 for name in names:
     if name == '':
         print('Empty values detected!')
@@ -91,40 +85,39 @@ for name in names:
     print(f'Name = {name}')
 print('\n')
 
-# continue: skips just the current item and moves to the next one, loop keeps running
+# continue
 for name in names:
     if name == '':
         print('Empty values detected!')
         continue
     print(f'Name = {name}')
-    print('\n')
+print('\n')
 
-# pass statement: does nothing, just a placeholder so the code doesn't error
-# on an empty block, useful when you know you need to handle something later
+# pass statement
 for name in names:
     if name == '':
         print('Empty values detected!')
-        pass #todo: Handle Empty Value
+        pass  # todo: Handle Empty Value
     print(f'Name = {name}')
 print('\n')
 
 for name in names:
     if name == '':
-        name = name.replace('','unknown')
-        #pass (todo: Handle Empty Value)
+        name = 'unknown'  # simpler and clearer than replacing an empty string
+        # pass (todo: Handle Empty Value)
     print(f'Name = {name}')
 print('\n')
 
 # TASK: Loop through a list of days and print only the working days, skipping the weekends
-days = ['Mon','Sun','Wed','Tue']
-weekends = ['Sat','Sun']
+days = ['Mon', 'Sun', 'Wed', 'Tue']
+weekends = ['Sat', 'Sun']
 for day in days:
     if day in weekends:
         continue
     print('Workday:', day)
 print('\n')
 
-#TASK: Scan emails to block unsafe data from entering your system
+# TASK: Scan emails to block unsafe data from entering your system
 emails = [
     'data@gamil.com',
     'op@gmail.com',
@@ -139,21 +132,19 @@ for email in emails:
     print('processing Email: ', email)
 print('\n')
 
-# for else: the else block only runs if the loop finishes normally, without hitting a break
-# if break is triggered, else is skipped entirely, this is what makes it different
-# from just writing code after the loop.
-# To have a real usage you have to combine the else statement with the break statement
-items = [1,2,3,4,7]
+# for else
+# To have real usage, you have to combine the else statement with the break statement
+items = [1, 2, 3, 4, 7]
 for item in items:
     print(item)
 else:
     print('The loop is completed')
 print('\n')
 
-# find out if there are even number
-items = [1,3,7]
+# find out if there are even numbers
+items = [1, 3, 7]
 for item in items:
-    if item % 2 == 0 :
+    if item % 2 == 0:
         print('Even number found', item)
         break
 else:
