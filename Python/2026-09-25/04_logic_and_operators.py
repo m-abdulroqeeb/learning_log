@@ -118,3 +118,57 @@ print(domain not in banned_domains)
 
 # is
 # is not
+
+a = 10
+b = a
+
+print(a is b)
+
+x = ['a','b', 'c']
+y = ['a','b', 'c']
+
+print(x is y)
+
+x = ['a','b', 'c']
+y = x
+
+print(x is y)
+
+# Make sure the email exists, and it is not empty
+email = 'opeyemi@gmail.com'
+print(email not in  [None, ''])
+
+# Challenge
+# 1_ Check if a user's name is not empty and the age is greater than or equal to 18
+# 2_ Check if the password is at least 8 charaters long and does not contain spaces
+# 3_ Check if a user's email is not empty, contains '@', and ends with '.com'
+# 4_ Check if a user name is a string, is not None, and is longer than 5 characters
+# 5_ Check if the user is either an admin or a moderator, 
+# and either they are not banned or they have verified their email
+
+# 1_ Check if a user's name is not empty and the age is greater than or equal to 18
+username = 'Opyemi'
+age = 78
+print(username != '' and age >= 18)
+
+# 2_ Check if the password is at least 8 charaters long and does not contain spaces
+password = '12345678'
+print(len(password) >= 8 and password.count(' ') == 0)
+
+# 3_ Check if a user's email is not empty, contains '@', and ends with '.com'
+useremail = 'opeyemi@gmail.com'
+print(useremail != '' and '@' in useremail and useremail.endswith('.com'))
+
+# 4_ Check if a user name is a string, is not None, and is longer than 5 characters
+username = 'Akande'
+print(isinstance(username,str) and username is not None and len(username) > 5)
+
+# 5_ Check if the user is either an admin or a moderator, 
+# and either they are not banned or they have verified their email
+
+user = 'admin'
+email = 'verified'
+user_check = ['admin',' moderator']
+email_check = ['not_banned', 'verified']
+
+print(user in user_check and email in email_check)

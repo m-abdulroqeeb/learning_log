@@ -3,7 +3,7 @@
 # ===========================================================================
 import math
 import random
-#  What are numeric values: they are values or datatypes that belong to primitive data type or single value
+# What are numeric values: they are values or datatypes that belong to primitive data type or single value
 # Numeric datatype: int - whole number, float - number with decimal point,
 # complex - real number + imaginary number
 # math operators: +, -, *, /, //, %, **
