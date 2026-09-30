@@ -48,7 +48,8 @@ learning-log/
 | 2026-09-23 | Python | Working with Strings |
 | 2026-09-24 | Python | Working with Numbers |
 | 2026-09-25 | Python | Logic and Operators |
-
+| 2026-09-28 | Python | Logic and Operators (completed), Conditional Statements, Loops (in progress) |
+| 2026-09-29 | Python | Loops (completed), Data Structures (in progress) |
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
