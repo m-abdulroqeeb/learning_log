@@ -29,7 +29,6 @@ for i in items:
 print('\n')
 
 # sequence: string
-
 items = ' Python'
 for i in items:
     print('Round:', i)
@@ -76,7 +75,7 @@ for i in range(1, 7):
 print('\n')
 
 # Advanced for loops:
-# break
+# break: immediately exits the loop entirely, skipping any remaining items
 names = ['john', 'maria', '', 'kumar']
 for name in names:
     if name == '':
@@ -85,7 +84,7 @@ for name in names:
     print(f'Name = {name}')
 print('\n')
 
-# continue
+# continue: skips just the current item and moves to the next one, loop keeps running
 for name in names:
     if name == '':
         print('Empty values detected!')
@@ -93,7 +92,8 @@ for name in names:
     print(f'Name = {name}')
 print('\n')
 
-# pass statement
+# pass statement: does nothing, just a placeholder so the code doesn't error
+# on an empty block, useful when you know you need to handle something later
 for name in names:
     if name == '':
         print('Empty values detected!')
@@ -132,8 +132,10 @@ for email in emails:
     print('processing Email: ', email)
 print('\n')
 
-# for else
-# To have real usage, you have to combine the else statement with the break statement
+# for else: the else block only runs if the loop finishes normally, without hitting a break
+# if break is triggered, else is skipped entirely, this is what makes it different
+# from just writing code after the loop
+
 items = [1, 2, 3, 4, 7]
 for item in items:
     print(item)
@@ -149,3 +151,127 @@ for item in items:
         break
 else:
     print('All numbers are odd')
+
+
+# TASK: Check for missing names in a list
+names = ['Kamara', 'Tuba', None, 'Mounika']
+for name in names:
+    if name is None:
+        print('Found a missing name')
+        break
+else:
+    print('All names are available')
+
+# TASK: Check if all files are CSV files
+files = ['data1.csv', 'report.pdf', 'report2.csv']
+for file in files:
+    if not (file.endswith('.csv')):
+        print('Not all files are CSV')
+        break
+else:
+    print('All files are CSV')
+
+# Challenge:
+# Check whether any filename appears more than once
+# Print 'Duplicate found' if a duplicate exists, otherwise print 'all files are unique'
+file_list = ['report', 'data.xlsx', 'data.csv', 'report.csv', 'data.csv']
+for file in file_list:
+    # count() must check for more than 1, since every item will always
+    # count itself at least once as it loops through its own list
+    if file_list.count(file) > 1:
+        print('Duplicate Found')
+        break
+else:
+    print('All files are unique')
+print('\n')
+
+# Nested Loop: Loop inside another loop
+for x in range(3):  # outer loop
+    for y in range(2):  # inner loop
+        for z in range(2):
+            print(f'({x},{y},{z})')
+print('\n')
+
+# Nested Loop Use Cases:
+# For Crossing Data
+# Navigating Hierarchy
+
+colors = ['red', 'blue', 'green']
+sizes = ['L', 'M', 'S']
+
+# For Crossing Data: pairing every item from one list with every item from another
+for color in colors:
+    for size in sizes:
+        print(f'({color} - Size {size})')
+
+# Navigating Hierarchy: looping through nested levels, like a folder structure or date breakdown
+years = [2026, 2027]
+months = ['Jan', 'Feb']
+days = range(1, 29)
+
+for y in years:
+    for m in months:
+        for d in days:
+            print(f'report_{y}_{m}_{d}.csv')
+print('\n')
+
+# Select count(*) from customers where id is null
+tables = ['customers', 'orders', 'products', 'prices']
+columns = ['id', 'create_date']
+for t in tables:
+    for c in columns:
+        print(f'SELECT count(*) FROM {t} WHERE {c} is NULL')
+
+
+# While Loop: Repeats a block of code, over and over, as long as the condition is True
+# while <condition>: the loop keeps running until the condition becomes False
+# while True: the loop runs forever, unless something inside it (like a break) stops it
+
+i = 1  # Initialization
+while i < 4:  # Condition
+    print(i)
+    i += 1  # Update
+print('\n')
+
+# Task: Build a counter that is going to count from 1 to 5
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+print('\n')
+
+# TASK: Write a program that keeps asking 'Do you agree?' until the user types 'yes'
+answer = ''
+while answer != 'yes':
+    answer = input('Do you agree?(yes/no)')
+print('Thank You!')
+print('\n')
+
+# Same idea, but using while True with a break instead of a changing condition
+while True:
+    answer = input('Do you agree?(yes/no)')
+    if answer == 'yes':
+        break
+print('Thank You!')
+print('\n')
+
+# Challenge
+# while True:
+#    answer = input('Do you agree?(yes/no)')
+#    if answer == 'yes':
+#        break
+# print('Thank You!')
+# Allow up to 3 attempts
+# if the user types 'yes', print 'Glad we are on the same page'
+# Otherwise, print '3 strikes, You are Out'
+
+answer = ''
+attempt = 0
+while attempt < 3:
+    answer = input('Do you agree?(yes/no): ')
+    if answer == 'yes':
+        print('Glad we are on the same page')
+        break
+    attempt += 1
+else:
+    print('3 strikes, You are Out')
