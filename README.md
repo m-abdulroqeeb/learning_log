@@ -1,27 +1,3 @@
-# Data Engineering Learning Log
-
-A daily record of my journey learning data engineering — SQL, Python, Spark, PySpark, Databricks, and Airflow — building toward a working, end-to-end data project.
-
-## About
-
-I'm documenting this consistently to track progress, build a portfolio, and communicate what I'm learning as I go. Each dated folder holds the code from that day's practice, commented to reflect my understanding at the time.
-
-## Structure
-
-```
-learning-log/
-  README.md
-  Python/
-	2026-09-22/
-  SQL/
-    2026-09-02/
-  Spark/
-  Databricks/
-  Airflow/
-  data/
-    README.md
-	dataset
-```
 
 ## Entries
 
@@ -49,7 +25,10 @@ learning-log/
 | 2026-09-24 | Python | Working with Numbers |
 | 2026-09-25 | Python | Logic and Operators |
 | 2026-09-28 | Python | Logic and Operators (completed), Conditional Statements, Loops (in progress) |
-| 2026-09-29 | Python | Loops (completed), Data Structures (in progress) |
+| 2026-09-29 | Python | Loops (completed), Data Structures — Lists (in progress) |
+| 2026-09-30 | Python | Data Structures — Tuple, Set, Dict |
+| 2026-10-02 | Python | Functions |
+
 ## Stack
 
 SQL · Python · Spark / PySpark · Databricks · Airflow
